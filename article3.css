@@ -1,0 +1,146 @@
+
+
+p{
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  opacity: 70%;
+
+}
+h1{
+  font-size: 38px;
+  line-height: normal;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #498F55;
+
+}
+h2{
+  font-size: 19px;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-variant: small-caps;
+  color: #498F55;
+  opacity: 60%;
+}
+h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #498F55;
+  opacity: 80%;
+}
+
+.three{
+padding-top: 38%;
+padding-left: 5%;
+position: relative;
+
+}
+
+.one{
+  float: left;
+  width:53%;
+  height: 53%;
+  padding-left:5%;
+  position: relative;
+  padding-top: 4.5%;
+
+}
+.two{
+  float: right;
+  width: 30%;
+  height: 30%;
+  padding-right: 5%;
+  padding-top: 9.5%;
+  padding-bottom: 5%;
+}
+h4{
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  opacity: 50%;
+}
+img:hover{
+ width: 57%;
+ opacity: 60%;
+ transition: 500ms ease-in-out 25ms;
+
+}
+
+
+@media print{
+  .one{
+    float: left;
+    width:40%;
+    height: 30%;
+    padding-left:1%;
+    position: relative;
+    padding-top: 0%;
+  }
+  .two{
+    float: right;
+    width: 40%;
+    height: 30%;
+    padding-right: 1%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+  .three{
+  padding-top: 100%;
+  padding-left: 1%;
+  padding-right: 20%;
+  position: relative;
+
+  }
+  h2{
+    line-height: 20px;
+    color: black;
+  }
+  h1{
+    color: black;
+
+  }
+  h3{
+    color: black;
+  }
+  h4{
+    padding-right: 40%;
+  }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  body{
+    margin: 5%;
+
+  }
+  .one{
+    width:80%;
+    height: 30%;
+    padding-left:1%;
+    position: absolute;
+    padding-top: 3%;
+
+  }
+  .two{
+    width: 97%;
+    height: 30%;
+    padding-left: 1%;
+    margin-top: 250%;
+    padding-bottom: 2%;
+  }
+  .three{
+  padding-left: 0%;
+  margin-top: 5%;
+  margin-right: 5%;
+  }
+  h1{
+margin: 0%;
+ }
+img{
+width: 100%;
+}
+}
